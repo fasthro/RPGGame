@@ -1,0 +1,9 @@
+<area index='{#area_index}'>
+	<cube count='{#cube_count}'>
+	{#cube_content}
+	</cube>
+
+	<ornament count='{#ornament_count}'>
+	{#ornament_content}
+	</ornament>
+</area>

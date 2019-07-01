@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,200">
+  <displayList>
+    <image id="n2_kkxc" name="@bg" src="kkxcy" fileName="component/joystick/image/yinying_5.png" xy="0,0" pivot="0.5,0.5" aspect="true" alpha="0.5"/>
+    <image id="n5_rl8t" name="@touch" src="rl8t12" fileName="component/joystick/image/yinying_3.png" xy="68,68" size="64,64"/>
+  </displayList>
+  <transition name="touch_start">
+    <item time="0" type="Alpha" target="n2_kkxc" tween="true" startValue="0.2" endValue="0.8" duration="3" ease="Linear"/>
+    <item time="0" type="Alpha" target="n5_rl8t" tween="true" startValue="0.2" endValue="1" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n2_kkxc" tween="true" startValue="0.8" ease="Linear"/>
+    <item time="3" type="Alpha" target="n5_rl8t" tween="true" startValue="1" ease="Linear"/>
+  </transition>
+  <transition name="touch_end">
+    <item time="0" type="Alpha" target="n5_rl8t" tween="true" startValue="1" endValue="0.2" duration="3" ease="Linear"/>
+    <item time="0" type="Alpha" target="n2_kkxc" tween="true" startValue="0.8" endValue="0.2" duration="3" ease="Linear"/>
+    <item time="3" type="Alpha" target="n5_rl8t" tween="true" startValue="0.2" ease="Linear"/>
+    <item time="3" type="Alpha" target="n2_kkxc" tween="true" startValue="0.2" ease="Linear"/>
+  </transition>
+</component>

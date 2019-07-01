@@ -1,0 +1,80 @@
+ManifestFileVersion: 0
+CRC: 3270953805
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 94b857038ba5d478fb1344f4c44ff4fc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f2a7069c44c05ca88ab6b5869b38dd10
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+Assets:
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/MushroomYellowGroup2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/MushroomRedGroup1.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Cactus1.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Palm_2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Wheat2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant1.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant3_3.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/PlantFat.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant1_4.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/WheatGroup2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Carrot.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Cabbage.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant3.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Leaf4.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant5.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/MushroomYellow.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant4.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant4_2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/MushroomRedGroup2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Leaf2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Palm_1.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant2_5.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant5_2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Wheat1.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant1_2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/PlantFat2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/CarrotGroup.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant1_5.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant1_3.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/MushroomYellowGroup1.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant3_2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Leaf1.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Leaf3.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Pumpkin.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/LeafGroup2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/LeafGrup1.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant2_3.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/MushroomRed.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/WheatGroup1.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant2_2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant4_3.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Leaf5.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant3_4.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Cactus2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Plant4_4.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Plant/Other/Watermelon.prefab
+Dependencies: []

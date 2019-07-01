@@ -1,0 +1,68 @@
+ManifestFileVersion: 0
+CRC: 1216367777
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5926475847cf3fae17e6846b683cf966
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9b1f96faa025328b86fadc32f7a7d76b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockFlat_2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockGround_1.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/Rock_2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/Rock_14.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockFlat_4.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockSmallGroupBrown6.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/Rock_13.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockSmallGroupBrown9.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/Rock_5.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockGround_3.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockSmallGroupBrown4.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/Rock_15.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/Rock_11.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockSmallGroupBrown3 .prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/Rock_6.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/Rock_1.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockGround_2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockFlat_3.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockSmallGroupBrown8.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/Rock_10.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/Rock_4.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockSmallGroupBrown5.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockLayered_2.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockFlat_1.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/Rock_12.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockLayered_3.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockLayered_4.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/Rock_3.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/Rock_8.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockSmallGroupBrown10.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/Rock_7.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockSmallGroupBrown1.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockLayered_1.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockLayered_5.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/Rock_9.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockSmallGroupBrown11.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockSmallGroupBrown7.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockGround_4.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Rock/Brown/RockSmallGroupBrown2.prefab
+Dependencies: []
