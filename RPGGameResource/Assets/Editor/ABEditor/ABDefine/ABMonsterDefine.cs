@@ -4,7 +4,7 @@
  * @Description: 怪ab资源定义
  */
 
-namespace RPGGame.Editor.ABEditor
+namespace RPGGameResource.ABEditor
 {
     public class ABMonsterDefine : ABBase
     {

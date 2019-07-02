@@ -528,9 +528,7 @@ namespace CubeWorldEditor
                             EditorGUILayout.EndHorizontal();
                             EditorGUILayout.BeginHorizontal();
                         }
-
                     }
-
                     EditorGUILayout.EndHorizontal();
                 }
                 EditorGUILayout.EndVertical();

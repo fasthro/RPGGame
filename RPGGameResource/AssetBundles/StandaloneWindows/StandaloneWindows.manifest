@@ -1,0 +1,100 @@
+ManifestFileVersion: 0
+CRC: 3022603492
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: maps/ornaments/blue
+      Dependencies: {}
+    Info_1:
+      Name: maps/ornaments/yellow
+      Dependencies: {}
+    Info_2:
+      Name: maps/ornaments/other
+      Dependencies: {}
+    Info_3:
+      Name: maps/ornaments/grass
+      Dependencies: {}
+    Info_4:
+      Name: maps/ornaments/single
+      Dependencies: {}
+    Info_5:
+      Name: maps/ornaments/brown
+      Dependencies: {}
+    Info_6:
+      Name: maps/cubes/wood
+      Dependencies: {}
+    Info_7:
+      Name: maps/ornaments/green
+      Dependencies: {}
+    Info_8:
+      Name: maps/ornaments/red
+      Dependencies: {}
+    Info_9:
+      Name: maps/cubes/ground
+      Dependencies: {}
+    Info_10:
+      Name: maps/ornaments/flower
+      Dependencies: {}
+    Info_11:
+      Name: maps/cubes/stone
+      Dependencies: {}
+    Info_12:
+      Name: maps/cubes/single
+      Dependencies: {}
+    Info_13:
+      Name: maps/ornaments/pink
+      Dependencies: {}
+    Info_14:
+      Name: maps/ornaments/tree
+      Dependencies: {}
+    Info_15:
+      Name: maps/cubes/soil
+      Dependencies: {}
+    Info_16:
+      Name: maps/cubes/rock
+      Dependencies: {}
+    Info_17:
+      Name: maps/ornaments/orange
+      Dependencies: {}
+    Info_18:
+      Name: maps/datas/main
+      Dependencies: {}
+    Info_19:
+      Name: monsters/toon_rock_golem
+      Dependencies: {}
+    Info_20:
+      Name: monsters/toon_cactus_monster
+      Dependencies: {}
+    Info_21:
+      Name: monsters/toon_plant_monster
+      Dependencies: {}
+    Info_22:
+      Name: monsters/toon_dragon
+      Dependencies: {}
+    Info_23:
+      Name: monsters/toon_bat
+      Dependencies: {}
+    Info_24:
+      Name: monsters/toon_ghost
+      Dependencies: {}
+    Info_25:
+      Name: monsters/toon_skeleton_archer
+      Dependencies: {}
+    Info_26:
+      Name: monsters/toon_skeleton_knight
+      Dependencies: {}
+    Info_27:
+      Name: monsters/toon_death_knight
+      Dependencies: {}
+    Info_28:
+      Name: heros/cubemensword
+      Dependencies: {}
+    Info_29:
+      Name: heros/cubemenfighter
+      Dependencies: {}
+    Info_30:
+      Name: heros/cubemenbow
+      Dependencies: {}
+    Info_31:
+      Name: monsters/toon_skeleton_mage
+      Dependencies: {}

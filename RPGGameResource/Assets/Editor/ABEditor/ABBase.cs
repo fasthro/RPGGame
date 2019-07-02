@@ -7,7 +7,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace RPGGame.Editor.ABEditor
+namespace RPGGameResource.ABEditor
 {
     public enum ABStructure
     {

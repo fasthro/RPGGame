@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 1356288219
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bb8e1de882e3255db2257765a3da5b5d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9b1f96faa025328b86fadc32f7a7d76b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Art/CubeWorld/Prefabs/Cube/Soil/Cube_SoilWGrass_3.prefab
+- Assets/Art/CubeWorld/Prefabs/Cube/Soil/Cube_SoilWGrass_6.prefab
+- Assets/Art/CubeWorld/Prefabs/Cube/Soil/Cube_SoilWGrass_5.prefab
+- Assets/Art/CubeWorld/Prefabs/Cube/Soil/Cube_SoilWGrass_1.prefab
+- Assets/Art/CubeWorld/Prefabs/Cube/Soil/Cube_SoilWGrass_2.prefab
+- Assets/Art/CubeWorld/Prefabs/Cube/Soil/Cube_Soil.prefab
+- Assets/Art/CubeWorld/Prefabs/Cube/Soil/Cube_SoilWGrass_4.prefab
+Dependencies: []

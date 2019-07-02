@@ -4,7 +4,7 @@
  * @Description: 英雄ab资源定义
  */
 
-namespace RPGGame.Editor.ABEditor
+namespace RPGGameResource.ABEditor
 {
     public class ABHeroDefine : ABBase
     {

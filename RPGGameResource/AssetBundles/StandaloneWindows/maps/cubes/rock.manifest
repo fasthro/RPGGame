@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 2125907866
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3403a88f37d6ffc76ebe09a0f1e3e42a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9b1f96faa025328b86fadc32f7a7d76b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Art/CubeWorld/Prefabs/Cube/Rock/Cube_RockWGrass_2.prefab
+- Assets/Art/CubeWorld/Prefabs/Cube/Rock/Cube_RockWGrass_3.prefab
+- Assets/Art/CubeWorld/Prefabs/Cube/Rock/Cube_RockWGrass_5.prefab
+- Assets/Art/CubeWorld/Prefabs/Cube/Rock/Cube_Rock_2.prefab
+- Assets/Art/CubeWorld/Prefabs/Cube/Rock/Cube_RockWGrass_4.prefab
+- Assets/Art/CubeWorld/Prefabs/Cube/Rock/Cube_RockWGrass_1.prefab
+- Assets/Art/CubeWorld/Prefabs/Cube/Rock/Cube_Rock.prefab
+- Assets/Art/CubeWorld/Prefabs/Cube/Rock/Cube_RockWGrass_6.prefab
+Dependencies: []

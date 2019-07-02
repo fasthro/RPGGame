@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 3057303256
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 50497a8ae7f2fe55408fe58834bb9093
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9b1f96faa025328b86fadc32f7a7d76b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Art/CubeWorld/Prefabs/Ornament/Crystals/Orange/Crystal1_Orange.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Crystals/Orange/Crystal3_Orange.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Crystals/Orange/Crystal4_Orange.prefab
+- Assets/Art/CubeWorld/Prefabs/Ornament/Crystals/Orange/Crystal2_Orange.prefab
+Dependencies: []

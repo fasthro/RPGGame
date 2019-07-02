@@ -99,7 +99,7 @@ namespace RPGGame.Utils
         }
 
         /// <summary>
-        /// 获取数据目录
+        /// 获取数据目录`
         /// </summary>
         /// <returns></returns>
         public static string GetDataPath()
