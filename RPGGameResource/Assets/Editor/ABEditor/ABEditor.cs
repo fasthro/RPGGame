@@ -35,18 +35,20 @@ namespace RPGGameResource.ABEditor
             if (Directory.Exists(outPath))
                 Directory.Delete(outPath, true);
 
-            if (!Directory.Exists(outPath))
-                Directory.CreateDirectory(outPath);
-
             Build();
         }
 
         [MenuItem("RPGGameResource/Build AssetBundle")]
         public static void Build()
         {
+             string outPath = GetAssetBundleOutPath();
+
+            if (!Directory.Exists(outPath))
+                Directory.CreateDirectory(outPath);
+
             ABBuildInfo buildInfo = new ABBuildInfo();
 
-            buildInfo.outputDirectory = GetAssetBundleOutPath();
+            buildInfo.outputDirectory = outPath;
             buildInfo.options = BuildAssetBundleOptions.ChunkBasedCompression;
             buildInfo.buildTarget = EditorUserBuildSettings.activeBuildTarget;
 
