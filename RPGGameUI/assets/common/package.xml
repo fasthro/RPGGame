@@ -97,5 +97,5 @@
     <image id="10cmk3k" name="hp_bar_red.png" path="/hud/image/" scale="9grid" scale9grid="150,3,300,6"/>
     <component id="10cmk3l" name="hero_scene_hp_bat.xml" path="/hud/scene_hp/"/>
   </resources>
-  <publish name="common" path="..\RPGGameResource\Assets\Art\UI\common" maxAtlasSize="4096" extractAlpha="true"/>
+  <publish name="common" path="..\RPGGameClient\Assets\Art\UI\common" maxAtlasSize="4096" extractAlpha="true"/>
 </packageDescription>

@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using FairyGUI;
 using UnityEngine;
+using RPGGame.ResSystem;
 
 namespace RPGGame
 {
@@ -17,7 +18,7 @@ namespace RPGGame
 
         // 所有UI包
         private Dictionary<string, PackageInfo> m_packages = new Dictionary<string, PackageInfo>();
-        
+
         private UIMgr() { }
 
         public void Init()
@@ -135,15 +136,21 @@ namespace RPGGame
             }
             else
             {
-                UIPackage package = null;
+                packageInfo = new PackageInfo();
+
 #if UNITY_EDITOR
-                package = UIPackage.AddPackage("");
-                completeCallback.InvokeGracefully(package);
+                packageInfo.package = UIPackage.AddPackage("");
+                completeCallback.InvokeGracefully(packageInfo.package);
 #else
-                // bundlle
-                // completeCallback.InvokeGracefully();
+                AssetBundleLoader loader = AssetBundleLoader.Allocate("ui", "", (ready, res) => { 
+                    if(ready){
+                        packageInfo.package = UIPackage.AddPackage(res.assetBundle);
+                        completeCallback.InvokeGracefully(packageInfo.package);
+                    }
+                });
+                loader.LoadAsync();
+                packageInfo.loader = loader;
 #endif
-                packageInfo = new PackageInfo(package);
             }
         }
 

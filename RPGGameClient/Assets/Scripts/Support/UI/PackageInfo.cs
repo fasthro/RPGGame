@@ -4,26 +4,24 @@
  * @Description: UI包信息
  */
 using FairyGUI;
+using RPGGame.ResSystem;
 
 namespace RPGGame
 {
     public class PackageInfo
     {
         // 包id
-        public string packageId { get { return m_package.id; } }
-
+        public string packageId;
         // 包实例
-        private UIPackage m_package;
-        public UIPackage package { get { return m_package; } }
-
+        public UIPackage package;
+        // 加载器实例
+        public AssetBundleLoader loader;
         // 引用数
-        private int m_rc;
-        public int rc { get { return m_rc; } set { m_rc = value; } }
+        public int rc;
 
-        public PackageInfo(UIPackage package)
+        public PackageInfo()
         {
-            m_package = package;
-            m_rc = 1;
+            rc = 1;
         }
     }
 }

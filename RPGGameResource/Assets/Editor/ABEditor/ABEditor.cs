@@ -8,6 +8,7 @@ using System.Reflection;
 using AssetBundleBrowser.AssetBundleDataSource;
 using UnityEditor;
 using UnityEngine;
+using RPGGameResource.Editor;
 
 namespace RPGGameResource.ABEditor
 {
@@ -41,8 +42,10 @@ namespace RPGGameResource.ABEditor
         [MenuItem("RPGGameResource/Build AssetBundle")]
         public static void Build()
         {
-             string outPath = GetAssetBundleOutPath();
+            // copy ui form client to resource
+            CopyUIFormClientToResource();
 
+            string outPath = GetAssetBundleOutPath();
             if (!Directory.Exists(outPath))
                 Directory.CreateDirectory(outPath);
 
@@ -70,6 +73,20 @@ namespace RPGGameResource.ABEditor
                 outputDirectory = Path.Combine(outputDirectory, "OSX");
 #endif
             return outputDirectory.Replace("RPGGameResource", "RPGGameClient");
+        }
+
+        // copy ui form client to resource
+        private static void CopyUIFormClientToResource()
+        {
+            string localPath = Path.Combine(Application.dataPath, "Art/UI");
+            string clientPath = localPath.Replace("RPGGameResource", "RPGGameClient");
+
+            // 删除本地缓存
+            if (Directory.Exists(localPath))
+                Directory.Delete(localPath, true);
+
+            // Copy
+            Utils.DirectoryCopy(clientPath, localPath);
         }
     }
 }

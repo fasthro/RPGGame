@@ -91,7 +91,7 @@ namespace RPGGame.ResSystem
             }
 
             // 加载本体
-            var url = ResPath.AssetBundleName2Url(m_bundleName);
+            var url = AssetBundlePath.GetFullPath(m_bundleName);
             m_assetBundle = AssetBundle.LoadFromFile(url);
             if (m_assetBundle == null)
             {
@@ -154,7 +154,7 @@ namespace RPGGame.ResSystem
         /// <param name="asyncSystem"></param>
         public IEnumerator RunAsync(IRunAsyncSystem asyncSystem)
         {
-            var url = ResPath.AssetBundleName2Url(m_bundleName);
+            var url = AssetBundlePath.GetFullPath(m_bundleName);
             var request = AssetBundle.LoadFromFileAsync(url);
 
             m_request = request;

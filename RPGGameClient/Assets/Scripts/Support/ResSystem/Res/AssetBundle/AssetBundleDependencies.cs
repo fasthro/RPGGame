@@ -16,7 +16,7 @@ namespace RPGGame.ResSystem
 
         public override void OnSingletonInit()
         {
-            m_bundle = AssetBundle.LoadFromFile(ResPath.AssetBundleName2Url(ResPath.AssetBundlePlatform));
+            m_bundle = AssetBundle.LoadFromFile(AssetBundlePath.GetFullPath(AssetBundlePath.GetPlatformIds()));
             m_manifest = m_bundle.LoadAsset("AssetBundleManifest") as AssetBundleManifest;
         }
 

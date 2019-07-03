@@ -3,5 +3,5 @@
   <resources>
     <component id="10cmk0" name="hud_panel.xml" path="/panel/" exported="true"/>
   </resources>
-  <publish name="hud_panel" path="..\RPGGameResource\Assets\Art\UI\hud_panel"/>
+  <publish name="hud_panel" path="..\RPGGameClient\Assets\Art\UI\hud_panel"/>
 </packageDescription>
