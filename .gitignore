@@ -40,3 +40,4 @@ sysinfo.txt
 *.unitypackage
 
 StreamingAssets/
+RPGGameResource/Assets/Art/UI*
