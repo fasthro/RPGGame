@@ -23,5 +23,16 @@ namespace RPGGame
         {
             rc = 1;
         }
+
+        public void Release()
+        {
+            if (loader != null)
+            {
+                loader.Unload();
+                loader = null;
+            }
+            UIPackage.RemovePackage(packageId);
+            package = null;
+        }
     }
 }

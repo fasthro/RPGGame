@@ -70,6 +70,9 @@ namespace RPGGame.ResSystem
         /// </summary>
         public override bool LoadSync()
         {
+            if (m_state == ResState.Ready)
+                return true;
+                
             if (!SearchAssetBundle())
             {
                 m_state = ResState.Failed;

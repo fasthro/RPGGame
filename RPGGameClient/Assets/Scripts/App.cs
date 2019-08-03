@@ -18,8 +18,5 @@ namespace RPGGame
         // 分辨率
         public static int resolutionWidth = 1136;
         public static int resolutionHeight = 640;
-        
-        // 资源目录
-        public static string assetDirName = "StreamingAssets";
     }
 }

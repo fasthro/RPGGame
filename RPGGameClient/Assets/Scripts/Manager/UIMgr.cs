@@ -50,7 +50,7 @@ namespace RPGGame
             AbstractPanel panel = null;
             if (!m_panels.TryGetValue(uiId, out panel))
             {
-                panel = CreateUI();
+                panel = CreateUI(uiId);
             }
 
             panel.Preload();
@@ -66,7 +66,7 @@ namespace RPGGame
             AbstractPanel panel = null;
             if (!m_panels.TryGetValue(uiId, out panel))
             {
-                panel = CreateUI();
+                panel = CreateUI(uiId);
             }
 
             panel.OpenPanel(data);
@@ -117,9 +117,9 @@ namespace RPGGame
         /// 创建UI
         /// </summary>
         /// <param name="uiId"></param>
-        private AbstractPanel CreateUI()
+        private AbstractPanel CreateUI(int uiId)
         {
-            return null;
+            return UIID.GetPanel(uiId);
         }
 
         /// <summary>
@@ -139,7 +139,7 @@ namespace RPGGame
                 packageInfo = new PackageInfo();
 
 #if UNITY_EDITOR
-                packageInfo.package = UIPackage.AddPackage("");
+                packageInfo.package = UIPackage.AddPackage(string.Format("Assets/Art/UI/{0}/{1}", packageName, packageName));
                 completeCallback.InvokeGracefully(packageInfo.package);
 #else
                 AssetBundleLoader loader = AssetBundleLoader.Allocate("ui", "", (ready, res) => { 
@@ -166,8 +166,7 @@ namespace RPGGame
                 packageInfo.rc--;
                 if (packageInfo.rc <= 0)
                 {
-                    UIPackage.RemovePackage(packageInfo.packageId);
-
+                    packageInfo.Release();
                     m_packages.Remove(packageName);
                 }
             }

@@ -97,21 +97,6 @@ namespace RPGGame.Utils
             var separator = Path.AltDirectorySeparatorChar.ToString();
             return UIEditorPath () + "assets" + separator;
         }
-
-        /// <summary>
-        /// 获取数据目录`
-        /// </summary>
-        /// <returns></returns>
-        public static string GetDataPath()
-        {
-            var separator = Path.AltDirectorySeparatorChar.ToString();
-
-            if (App.isDebug)
-            {
-                return Application.dataPath + separator + App.assetDirName + separator;
-            }
-            return "";
-        }
     }
 }
 

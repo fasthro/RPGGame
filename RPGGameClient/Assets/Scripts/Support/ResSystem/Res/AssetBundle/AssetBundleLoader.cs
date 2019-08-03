@@ -64,7 +64,7 @@ namespace RPGGame.ResSystem
         public override bool LoadSync()
         {
             bool _bundle = m_bundleRes.LoadSync();
-            bool _asset = m_assetRes.LoadSync();
+            bool _asset = m_only ? true : m_assetRes.LoadSync();
             bool ready = _bundle && _asset;
             m_listener.InvokeGracefully(ready, m_assetRes);
             return ready;

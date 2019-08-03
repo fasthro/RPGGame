@@ -70,6 +70,9 @@ namespace RPGGame.ResSystem
         /// </summary>
         public override bool LoadSync()
         {
+            if (m_state == ResState.Ready)
+                return true;
+                
             m_state = ResState.Loading;
 
             // 先加载依赖

@@ -255,22 +255,22 @@ PrefabInstance:
     - target: {fileID: 3879054812666473310, guid: af0ac400ed95fea4e812b3a10fd245ff,
         type: 3}
       propertyPath: joys.Array.data[0].parame.radius
-      value: 80
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3879054812666473310, guid: af0ac400ed95fea4e812b3a10fd245ff,
         type: 3}
       propertyPath: joys.Array.data[0].parame.boundary.x
-      value: 300
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 3879054812666473310, guid: af0ac400ed95fea4e812b3a10fd245ff,
         type: 3}
       propertyPath: joys.Array.data[1].parame.boundary.x
-      value: 250
+      value: 160
       objectReference: {fileID: 0}
     - target: {fileID: 3879054812666473310, guid: af0ac400ed95fea4e812b3a10fd245ff,
         type: 3}
       propertyPath: joys.Array.data[1].parame.boundary.y
-      value: 220
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 3879054812666473310, guid: af0ac400ed95fea4e812b3a10fd245ff,
         type: 3}
@@ -280,27 +280,27 @@ PrefabInstance:
     - target: {fileID: 3879054812666473310, guid: af0ac400ed95fea4e812b3a10fd245ff,
         type: 3}
       propertyPath: joys.Array.data[1].parame.radius
-      value: 80
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3879054812666473310, guid: af0ac400ed95fea4e812b3a10fd245ff,
         type: 3}
       propertyPath: joys.Array.data[2].parame.radius
-      value: 80
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3879054812666473310, guid: af0ac400ed95fea4e812b3a10fd245ff,
         type: 3}
       propertyPath: joys.Array.data[2].parame.boundary.y
-      value: 300
+      value: 193.7
       objectReference: {fileID: 0}
     - target: {fileID: 3879054812666473310, guid: af0ac400ed95fea4e812b3a10fd245ff,
         type: 3}
       propertyPath: moveJoy.parame.radius
-      value: 250
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 3879054812666473310, guid: af0ac400ed95fea4e812b3a10fd245ff,
         type: 3}
       propertyPath: attackJoy.parame.radius
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3879054812666473310, guid: af0ac400ed95fea4e812b3a10fd245ff,
         type: 3}
@@ -315,7 +315,7 @@ PrefabInstance:
     - target: {fileID: 3879054812666473310, guid: af0ac400ed95fea4e812b3a10fd245ff,
         type: 3}
       propertyPath: joys.Array.data[0].parame.boundary.y
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3879054812666473310, guid: af0ac400ed95fea4e812b3a10fd245ff,
         type: 3}

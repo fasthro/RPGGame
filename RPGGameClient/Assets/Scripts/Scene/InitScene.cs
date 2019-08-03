@@ -25,8 +25,10 @@ namespace RPGGame
             // 热更新
             // 进入登录流程
             // SceneMgr.Instance.SwitchScene(SceneType.LoginScene);
-            var env = new World();
-            env.LoadMap("Main");
+            // var env = new World();
+            // env.LoadMap("Main");
+
+            UIMgr.Instance.OpenUI();
         }
 
         public override void OnExit(SceneEvent eventCallback = null)
